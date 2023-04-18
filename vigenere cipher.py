@@ -20,3 +20,5 @@ for i in range(len(plain_text)):
    ciphertext_letter = alphabet[ciphertext_index]
    ciphertext += ciphertext_letter
 # Print output
+print("Ciphertext:", ciphertext)
+
