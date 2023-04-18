@@ -3,6 +3,7 @@ alphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 # Get the plaintext and keyword from the user
 # Message: THISISTHELASTTASKHOORDAY
 # Keyword: KNIGHTS
+print("\033[92m:" * 40)
 plain_text = input("Message: ")
 key = input("Keyword: ")
 
@@ -21,4 +22,7 @@ for i in range(len(plain_text)):
    ciphertext += ciphertext_letter
 # Print output
 print("Ciphertext:", ciphertext)
+print("\033[92m:" * 40)
+
+
 
